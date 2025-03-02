@@ -14,5 +14,7 @@ defmodule FinanzZirkusWeb.Router do
     pipe_through :browser
 
     live "/", PageLive, :index
+    live "/blog", BlogLive
+    live "/blog/:id", BlogLive
   end
 end
