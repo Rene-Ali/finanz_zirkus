@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :finanz_zirkus, FinanzZirkus.Repo,
   username: "postgres",
-  password: "secret",
+  password: "123456789",
   hostname: "localhost",
   database: "finanz_zirkus_dev",
   stacktrace: true,
